@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Fitness Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Fitness Hub</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="motivation.html" class="nav-link">Motivation</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Plans <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="weight-gain.html">Weight Gain</a>
+                        <a href="weight-loss.html">Weight Loss</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
+                <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="mentorship.html" class="nav-link">Mentorship</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="hero-content">
+            <h1>Contact Fitness Hub</h1>
+            <p>Get in touch with Shoaib Hossain and our team to start your fitness journey</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Ready to transform your life? Contact us today to schedule your free consultation with Shoaib Hossain or one of our expert trainers.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+1 (555) 123-4567</p>
+                                <span>Mon-Fri 6AM-10PM, Sat-Sun 8AM-8PM</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>info@fitnesshub.com</p>
+                                <span>We'll respond within 24 hours</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>123 Fitness Street<br>Health City, HC 12345</p>
+                                <span>Visit us for a free tour</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h3>WhatsApp</h3>
+                                <p>+1 (555) 123-4567</p>
+                                <span>Quick questions and support</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-contact">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-youtube"></i>
+                                <span>YouTube</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Interested In *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="weight-loss">Weight Loss Program</option>
+                                <option value="weight-gain">Weight Gain Program</option>
+                                <option value="private-mentorship">Private Mentorship</option>
+                                <option value="gym-membership">Gym Membership</option>
+                                <option value="nutrition-consultation">Nutrition Consultation</option>
+                                <option value="group-training">Group Training</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="goals">Your Fitness Goals</label>
+                            <textarea id="goals" name="goals" rows="4" placeholder="Tell us about your fitness goals and what you'd like to achieve..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="experience">Fitness Experience Level</label>
+                            <select id="experience" name="experience">
+                                <option value="">Select your level</option>
+                                <option value="beginner">Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="advanced">Advanced</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Any additional questions or information you'd like to share..."></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                Subscribe to our newsletter for fitness tips and updates
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact Options -->
+    <section class="quick-contact">
+        <div class="container">
+            <h2>Quick Contact Options</h2>
+            <div class="quick-options">
+                <div class="quick-option">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Schedule Free Consultation</h3>
+                    <p>Book a 30-minute free consultation with Shoaib Hossain</p>
+                    <a href="#" class="btn btn-outline">Book Now</a>
+                </div>
+                <div class="quick-option">
+                    <i class="fas fa-video"></i>
+                    <h3>Virtual Tour</h3>
+                    <p>Take a virtual tour of our facilities and meet our team</p>
+                    <a href="#" class="btn btn-outline">Start Tour</a>
+                </div>
+                <div class="quick-option">
+                    <i class="fas fa-download"></i>
+                    <h3>Download Brochure</h3>
+                    <p>Get detailed information about all our programs and services</p>
+                    <a href="#" class="btn btn-outline">Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="contact-faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How do I get started?</h3>
+                    <p>Simply fill out the contact form above or call us to schedule your free consultation. We'll discuss your goals and recommend the best program for you.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer free trials?</h3>
+                    <p>Yes! We offer a free consultation and facility tour. For memberships, we have a 7-day trial period for new members.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What should I bring to my first visit?</h3>
+                    <p>Just bring comfortable workout clothes, a water bottle, and a positive attitude. We'll provide everything else you need.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I speak directly with Shoaib Hossain?</h3>
+                    <p>Shoaib personally handles consultations for private mentorship programs and is available for initial consultations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Visit Our Location</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Fitness Hub Location</h3>
+                    <p>123 Fitness Street, Health City, HC 12345</p>
+                    <div class="map-info">
+                        <div class="map-detail">
+                            <strong>Parking:</strong> Free parking available
+                        </div>
+                        <div class="map-detail">
+                            <strong>Public Transport:</strong> Bus stop 2 minutes walk
+                        </div>
+                        <div class="map-detail">
+                            <strong>Accessibility:</strong> Wheelchair accessible
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Transform Your Life?</h2>
+            <p>Contact Fitness Hub today and take the first step towards your fitness goals with Shoaib Hossain</p>
+            <div class="cta-buttons">
+                <a href="tel:+15551234567" class="btn btn-primary">Call Now</a>
+                <a href="mailto:info@fitnesshub.com" class="btn btn-secondary">Email Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Fitness Hub</h3>
+                    <p>Transform your body, transform your life with expert guidance and support.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="weight-loss.html">Weight Loss</a></li>
+                        <li><a href="weight-gain.html">Weight Gain</a></li>
+                        <li><a href="mentorship.html">Private Mentorship</a></li>
+                        <li><a href="motivation.html">Motivation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@fitnesshub.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Fitness Street, Health City</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Fitness Hub. All rights reserved. Founded by Shoaib Hossain.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
